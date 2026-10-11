@@ -1,0 +1,8 @@
+
+FROM docker.elastic.co/kibana/kibana:9.2.0
+
+ENV SERVER_HOST=0.0.0.0
+ENV SERVER_PORT=5601
+ENV XPACK_SECURITY_ENABLED=false
+
+EXPOSE 5601
